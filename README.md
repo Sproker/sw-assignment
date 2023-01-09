@@ -10,6 +10,3 @@ Demo web app written in ReactJs and PHP OOP.
 
 ## Screenshots
 - TBA
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
