@@ -1,5 +1,5 @@
 # Scandiweb Junior Assignment
-Demo web app written in PHP OOP.
+Demo web app written in ReactJs and PHP OOP.
 
 ## Functionality
 - TBA
