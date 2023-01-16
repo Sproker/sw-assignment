@@ -13,10 +13,10 @@ function App() {
             <div className="content">
             <Navbar />
                 <Routes>
-                    <Route exact path='/' element = {<ProductList />} />
-                    <Route path='/add' element = {<AddProduct />} />
+                    <Route exact path='/' element = { <ProductList /> } />
+                    <Route path='/add' element = { <AddProduct /> } />
                 </Routes>
-            <Footer />
+                <Footer />
             </div>
         </BrowserRouter>
     );
