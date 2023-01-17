@@ -1,4 +1,4 @@
-# Scandiweb Junior Assignment
+# Scandiweb products page assignment
 Demo web app written in ReactJs and PHP OOP.
 
 ## Functionality
