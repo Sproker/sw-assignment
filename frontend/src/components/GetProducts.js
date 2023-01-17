@@ -138,7 +138,7 @@ function GetProducts() {
             {products.map((product, index) => (
                 <Col key={index}
                      className="d-flex justify-content-center">
-                    <Card>
+                    <Card bg="light">
                         <Card.Header className="card-header text-muted">
                                 <input
                                     type="checkbox"
