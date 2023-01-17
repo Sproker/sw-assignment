@@ -4,16 +4,16 @@ import AddProductForm from "../components/AddProductForm";
 
 function AddProduct() {
     return (
-        <Container className="page-container" fluid>
-            <div className="top-bar">
-                <h2>Product Add</h2>
-                <div>
-                    <Button variant="primary" id="save-product-btn" type="submit">Save</Button>{' '}
-                    <Button variant="secondary" id="cancel-product-btn" href="/">Cancel</Button>{' '}
+        <Container fluid className="page-container">
+            <div className="product-wrapper">
+                <div className="top-bar">
+                    <h2>Product Add</h2>
+                    <div>
+                        <Button variant="primary" id="save-product-btn" type="submit">Save</Button>{' '}
+                        <Button variant="secondary" id="cancel-product-btn" href="/">Cancel</Button>{' '}
+                    </div>
                 </div>
-            </div>
-            <hr/>
-            <div className="product-content">
+                <hr/>
                 <AddProductForm />
             </div>
         </Container>

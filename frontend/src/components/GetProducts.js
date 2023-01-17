@@ -1,4 +1,3 @@
-import React from 'react';
 import {Card, Col, Row} from "react-bootstrap";
 
 function GetProducts() {
@@ -62,16 +61,23 @@ function GetProducts() {
             dimension: 'Dimension: 40x40x20'
         },
         {
-            sku: 'L55s4300',
+            sku: '55s4300',
             type: 'furniture',
-            name: 'DVD',
-            price: '$9.99',
-            size: 'Size: 40MB'
+            name: 'Product 5',
+            price: '$29.99',
+            dimension: 'Dimension: 40x40x20'
         },
         {
-            sku: 'P55s4300',
-            type: 'Furniture',
-            name: 'Product',
+            sku: '55s4300',
+            type: 'furniture',
+            name: 'Product 6',
+            price: '$29.99',
+            dimension: 'Dimension: 40x40x20'
+        },
+        {
+            sku: '55s4300',
+            type: 'furniture',
+            name: 'Product 7',
             price: '$29.99',
             dimension: 'Dimension: 40x40x20'
         },
@@ -83,16 +89,16 @@ function GetProducts() {
             dimension: 'Dimension: 40x40x20'
         },
         {
-            sku: 'L55s4300',
+            sku: '55s4300',
             type: 'furniture',
-            name: 'DVD',
-            price: '$9.99',
-            size: 'Size: 40MB'
+            name: 'Product 6',
+            price: '$29.99',
+            dimension: 'Dimension: 40x40x20'
         },
         {
-            sku: 'P55s4300',
-            type: 'Furniture',
-            name: 'Product',
+            sku: '55s4300',
+            type: 'furniture',
+            name: 'Product 7',
             price: '$29.99',
             dimension: 'Dimension: 40x40x20'
         },
@@ -104,16 +110,16 @@ function GetProducts() {
             dimension: 'Dimension: 40x40x20'
         },
         {
-            sku: 'L55s4300',
+            sku: '55s4300',
             type: 'furniture',
-            name: 'DVD',
-            price: '$9.99',
-            size: 'Size: 40MB'
+            name: 'Product 6',
+            price: '$29.99',
+            dimension: 'Dimension: 40x40x20'
         },
         {
-            sku: 'P55s4300',
-            type: 'Furniture',
-            name: 'Product',
+            sku: '55s4300',
+            type: 'furniture',
+            name: 'Product 7',
             price: '$29.99',
             dimension: 'Dimension: 40x40x20'
         },
@@ -123,28 +129,22 @@ function GetProducts() {
             name: 'Table',
             price: '$29.99',
             dimension: 'Dimension: 40x40x20'
-        },
-        {
-            sku: 'L55s4300',
-            type: 'furniture',
-            name: 'DVD',
-            price: '$9.99',
-            size: 'Size: 40MB'
         },
 
     ];
+
     return (
-        <Row className="g-3" xs={2} sm={3} md={4} lg={4} xl={5} xxl={6}>
+        <Row className="grid g-4" xs={1} sm={2} md={3} lg={4} xl={5} xxl={6}>
             {products.map((product, index) => (
                 <Col key={index}
                      className="d-flex justify-content-center">
                     <Card>
                         <Card.Header className="card-header text-muted">
-                            <input
-                                type="checkbox"
-                                //checked={checked}
-                                className="delete-checkbox"
-                            />
+                                <input
+                                    type="checkbox"
+                                    //checked={checked}
+                                    className="delete-checkbox"
+                                />
                             {product.type}
                         </Card.Header>
                         <Card.Body className="text-center">
