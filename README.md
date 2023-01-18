@@ -1,4 +1,4 @@
-# Scandiweb products page assignment
+# Demo products page
 Demo web app written in ReactJs and PHP OOP.
 
 ## Functionality
