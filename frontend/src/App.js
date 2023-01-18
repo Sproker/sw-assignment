@@ -1,7 +1,7 @@
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import ProductList from './pages/ProductList';
 import AddProduct from './pages/AddProduct';
 import Navbar from './components/Navbar';
@@ -11,12 +11,12 @@ function App() {
     return (
         <BrowserRouter>
             <div className="content">
-            <Navbar />
+                <Navbar/>
                 <Routes>
-                    <Route exact path='/' element = { <ProductList /> } />
-                    <Route path='/add' element = { <AddProduct /> } />
+                    <Route exact path='/' element={<ProductList/>}/>
+                    <Route path='/add-product' element={<AddProduct/>}/>
                 </Routes>
-                <Footer />
+                <Footer/>
             </div>
         </BrowserRouter>
     );
